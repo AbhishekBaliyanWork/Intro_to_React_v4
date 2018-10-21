@@ -3,9 +3,6 @@ import { render } from "react-dom";
 import Pet from "./Pet";
 
 class App extends React.Component {
-  handleTitleClick() {
-    alert("You clicked Me");
-  }
   render() {
     // return React.createElement("div", {}, [
     //   React.createElement(
@@ -34,7 +31,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1 onClick={this.handleTitleClick}>Adopt My Dog!</h1>
+        <h1>Adopt My Dog!</h1>
         <Pet name="Anny" animal="Ants" breed="Fire Ant" />
         <Pet name="Nitin" animal="dog" breed="Bulldog" />
         <Pet name="Monny" animal="Monkey" breed="Gelada" />
