@@ -14,7 +14,9 @@ class App extends React.Component {
     return React.createElement("div", {}, [
       React.createElement(
         "h1",
-        { onClick: this.handleTitleClick },
+        {
+          onClick: this.handleTitleClick
+        },
         "Adopt My Dog!"
       ),
       React.createElement(Pet, {
