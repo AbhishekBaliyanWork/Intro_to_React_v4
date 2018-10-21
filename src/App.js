@@ -1,9 +1,6 @@
 import React from "react";
-import {
-  render
-} from "react-dom";
+import { render } from "react-dom";
 import Pet from "./Pet";
-
 
 class App extends React.Component {
   handleTitleClick() {
@@ -12,7 +9,8 @@ class App extends React.Component {
   render() {
     return React.createElement("div", {}, [
       React.createElement(
-        "h1", {
+        "h1",
+        {
           onClick: this.handleTitleClick
         },
         "Adopt My Dog!"
