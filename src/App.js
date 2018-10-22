@@ -68,9 +68,12 @@ class App extends React.Component {
     return (
       <div>
         <h1>Adopt My Dog!</h1>
-        <Pet name="Anny" animal="Ants" breed="Fire Ant" />
+        {/* <Pet name="Anny" animal="Ants" breed="Fire Ant" />
         <Pet name="Nitin" animal="dog" breed="Bulldog" />
-        <Pet name="Monny" animal="Monkey" breed="Gelada" />
+        <Pet name="Monny" animal="Monkey" breed="Gelada" /> */}
+        <pre>
+          <code>{JSON.stringify(this.state, null, 4)}</code>
+        </pre>
       </div>
     );
   }
